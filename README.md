@@ -1,7 +1,12 @@
 
 # Akamai ARL Hack
 
-Script to test open Akamai ARL vulnerability.
+- This research was stolen from todayisnew a.k.a @codecancare by a bug bounty triager.
+
+It is now public knowledge, but we are sorry for what happened to todayisnew.
+
+
+This is a script to test an open Akamai ARL vulnerability.
 
 When successful, you can more or less load arbitrary Akamai-hosted content from the target subdomain.
 
@@ -24,8 +29,4 @@ Where the latter is a text file of line-delimited targets.
 4. Prints 'true' or 'false' whether that payload seemed to work
 ```
 
-## More info on ARL attacks
 
-https://warandcode.com/post/akamai-arl-hack/
-
-http://securityhorror.blogspot.com/2019/04/hacking-temporal-locality.html
